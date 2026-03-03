@@ -71,25 +71,25 @@
 │   (Flutter / Dart)     │   (React + Tailwind CSS)       │
 │                        │                                │
 │  ┌──────────────┐      │  ┌──────────────────────────┐  │
-│  │  SOS Engine   │      │  │  Dashboard / Map / Cams  │  │
-│  │  GPS Tracker  │      │  │  Video Analysis          │  │
-│  │  Safe Places  │      │  │  Criminal DB             │  │
-│  │  Contact Mgr  │      │  │  Incident Reports        │  │
+│  │  SOS Engine  │      │  │  Dashboard / Map / Cams  │  │
+│  │  GPS Tracker │      │  │  Video Analysis          │  │
+│  │  Safe Places │      │  │  Criminal DB             │  │
+│  │  Contact Mgr │      │  │  Incident Reports        │  │
 │  └──────┬───────┘      │  └───────────┬──────────────┘  │
-│         │              │              │                  │
-├─────────┼──────────────┼──────────────┼──────────────────┤
-│         │    Backend Services         │                  │
-│         ▼                             ▼                  │
+│         │              │              │                 │
+├─────────┼──────────────┼──────────────┼─────────────────┤
+│         │    Backend Services         │                 │
+│         ▼                             ▼                 │
 │  ┌──────────────┐          ┌───────────────────────┐    │
-│  │ Socket.IO    │          │  Flask API (Python)    │    │
-│  │ (Node / Py)  │          │  + Roboflow Inference  │    │
-│  │ Port 3000    │          │  + DeepFace / ArcFace  │    │
-│  └──────────────┘          │  Port 5000             │    │
+│  │ Socket.IO    │          │  Flask API (Python)   │    │
+│  │ (Node / Py)  │          │  + Roboflow Inference │    │
+│  │ Port 3000    │          │  + DeepFace / ArcFace │    │
+│  └──────────────┘          │  Port 5000            │    │
 │                            └───────────────────────┘    │
 ├─────────────────────────────────────────────────────────┤
 │                    ML Models                            │
-│  Roboflow (Violence + Gender) │ DeepFace (Face Match)  │
-│  Local Inference Server :9001 │ ArcFace / VGGFace      │
+│  Roboflow (Violence + Gender) │ DeepFace (Face Match)   │
+│  Local Inference Server :9001 │ ArcFace / VGGFace       │
 └─────────────────────────────────────────────────────────┘
 ```
 
