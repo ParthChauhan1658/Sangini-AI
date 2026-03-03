@@ -1,0 +1,14 @@
+{
+  "name": "proximity-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple Socket.IO backend for proximity alerts",
+  "main": "server.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  }
+}
