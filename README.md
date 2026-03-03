@@ -309,7 +309,7 @@ Criminal face matches trigger an independent **critical alert** after consistent
 ## Authors
 
 - **Parth Chauhan** — [@ParthChauhan1658](https://github.com/ParthChauhan1658)
-
+- **Mufiz Arbee** — [@MarbeeGit](https://github.com/MArbeeGit)
 ---
 
 ## License
