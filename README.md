@@ -14,7 +14,7 @@
   <a href="#architecture">Architecture</a> &nbsp;&bull;&nbsp;
   <a href="#tech-stack">Tech Stack</a> &nbsp;&bull;&nbsp;
   <a href="#getting-started">Getting Started</a> &nbsp;&bull;&nbsp;
-  <a href="#screenshots">Screenshots</a> &nbsp;&bull;&nbsp;
+  <!-- Your comment here <a href="#screenshots">Screenshots</a> &nbsp;&bull;&nbsp;-->
   <a href="#contributing">Contributing</a> &nbsp;&bull;&nbsp;
   <a href="#license">License</a>
 </p>
